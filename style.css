@@ -1,0 +1,75 @@
+
+body{
+    margin: 0;
+}
+.header h1 {
+   text-shadow: 2px 2px 5px red;
+   font-size: 50px;
+    
+}
+.header h5 {
+    text-shadow: 2px 2px 5px red;
+    font-size: 20px;
+     
+ }
+.section-header{
+    background-image:url('images/2.jpg');
+    background-size:cover;
+    width: 100%;
+    opacity: 0.8;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+  }
+
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }  
+
+  .content {
+    background-color: #cca;
+    display: flex;
+    justify-content: center;
+  }
+  .section2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+  }
+
+  .google{
+    width: 450px;
+    height: 200px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    display: flex;
+    gap: 50px; 
+    padding: 10px 10px;
+   
+} 
+.card {
+    border-radius: 2px solid #cce;
+}
+  .text{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #ffe;
+}
+ 
